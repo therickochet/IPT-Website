@@ -1,0 +1,83 @@
+.topnav {
+	background-color: rgba(42, 147, 213, 0.7);
+	overflow: hidden;
+	position: fixed;	
+	float: left;
+    width: 100%;	
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+    font-size: 17px;
+    }
+.topnav a:hover {
+	background-color: #135589
+}
+
+body {
+    background-image: url("http://www.rd.com/wp-content/uploads/sites/2/2016/04/01-cat-wants-to-tell-you-laptop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.75;
+    width: 100%;
+    height: 100%;
+    overflow-y:hidden;
+    overflow-x:hidden;
+
+}   
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.title{
+    top: 50%;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100px;
+    position: relative;
+    background-color: rgba(0,0,0,0.75);
+    border-radius: 15px;
+}
+
+.title h1{
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    color: white;
+    opacity: 1;
+    margin: 10px;
+}
+
+body,h1,h3,p{
+	font-family: "Lato", sans-serif;
+    text-align: center;
+}
+
+.footer {
+    position: relative;
+    top: 85%;
+    background-color: rgba(42, 147, 213, 0.7);
+    max-width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subtitle {
+    position: relative;
+    background-color: rgba(42, 147, 213, 0.7);
+    max-width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.round {
+    border-radius: 15px;
+}
+
